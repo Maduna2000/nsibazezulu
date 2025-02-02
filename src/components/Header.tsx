@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-
+import logo from '../../assets/Full Header.png';
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -10,12 +10,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/public/Full Header.png" 
-              alt="logo
-        " 
-              className="h-12"
-            />
+          <img src={logo} alt="Nsibazezulu Logo" className="h-12" />
+        
+            
+      
           </div>
 
           {/* Desktop Navigation */}
