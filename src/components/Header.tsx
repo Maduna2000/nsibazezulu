@@ -11,8 +11,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/website-header.png" 
-              alt="Nsibazezulu Logo" 
+              src="/public/Full Header.png" 
+              alt="logo
+        " 
               className="h-12"
             />
           </div>
